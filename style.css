@@ -1,0 +1,114 @@
+/*global*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+.header {
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    color: white;
+}
+
+/*main*/
+.container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    height: 70vmin;
+    width: 70vmin;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*buttons*/
+.buttons {
+    height: 22vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn {
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn i {
+    color: white;
+    font-size: 4rem;
+}
+
+.btn:hover {
+    border: 0.5rem solid black;
+    cursor: pointer;
+}
+
+#rock {
+    background-color: pink;
+}
+
+#paper {
+    background-color: purple;
+}
+
+#scissors {
+    background-color: blue;
+}
+
+/*records*/
+.records {
+    height: 22vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.record {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#user-score,
+#comp-score {
+    font-size: 2.5rem;
+}
+
+/*message container*/
+.msg-container {
+    height: 22vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.msg {
+    height: 5vmin;
+    color: white;
+    background-color: black;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
